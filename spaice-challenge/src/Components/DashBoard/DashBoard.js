@@ -18,7 +18,7 @@ const Node = ({ child }) => {
 				<Card>
 					<Card.Header data-testid="subHeading" style={{ textAlign: 'center' }}>
 						<Node data-testid="node" child={key[1]}></Node>
-							</Card.Header>
+					</Card.Header>
 				</Card>
 			</Collapsible>
 		<br />
