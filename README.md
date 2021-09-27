@@ -36,3 +36,5 @@ Authentication was done by creating a server file using express and Node JS to q
 - JWT encoding for the login/registration information
 - Better testing methods
 - Allow the editing of nodes other than the leaf nodes
+- Host both server and application on Heroku or an alternative
+- Email response using Sendgrid to notify user of proper registration.
