@@ -16,7 +16,7 @@ In this assignment was to create a react application that can display a collapsi
 - SQL database
 
 ## Overall Approach
-To get the base functionality of the application I used a recursive approach that iterated over the whole JSON file. It would check whether or not each node had a child node and if it did would continue to make subheadings until it reached the end. This allowed for the JSON data to be rendered in an accordion like structure allowing for each heading to expand and collapse based on information located inside. Once it reached the end I created a function that allowed one to edit the values of the final nodes if they were authenticated. 
+To get the base functionality of the application I used a recursive approach that iterated over the whole JSON file. It would check whether or not each node had a child node and if it did would continue to make subheadings until it reached the end where it would print out the value. This allowed for the JSON data to be rendered in an accordion like structure allowing for each heading to expand and collapse based on information located inside. Once it reached the end I created a function that allowed one to edit the values of the final nodes if they were authenticated. 
 
 Authentication was done by creating a server file using express and Node JS to query a database hosted on heroku to see if the user's login information was correct or to see if the registering user had information that already matched what was on the database. Once logged in the state of the user was set allowing for one to edit the child nodes on the tree as well as enter an admin dashboard that allowed one to upload any JSON file and view how it would look.
 
