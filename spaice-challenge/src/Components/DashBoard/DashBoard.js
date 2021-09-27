@@ -12,17 +12,17 @@ const Node = ({ child }) => {
     if (hasChild) {
         let heading = Object.entries(child).map((key, child) => {
             return (
-                <Card style={{ textAlign: 'left' }>
-                    <br />
-                    <Collapsible trigger={key[0]}>
-                        <Card>
-                            <Card.Header style={{ textAlign: "center" }}>
-                                <Node child={key[1]}></Node>
-                            </Card.Header>
-                        </Card>
-                    </Collapsible>
-                    <br />
-                </Card>
+              <Card style={{ textAlign: 'left' }}>
+					<br />
+					<Collapsible trigger={key[0]}>
+						<Card>
+							<Card.Header data-testid="subHeading" style={{ textAlign: 'center' }}>
+								<Node data-testid="node" child={key[1]}></Node>
+							</Card.Header>
+						</Card>
+					</Collapsible>
+					<br />
+				</Card>
             );
         });
         return heading;
