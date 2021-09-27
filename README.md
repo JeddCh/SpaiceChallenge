@@ -10,6 +10,8 @@ The `.env` file should be placed in the server directory.
 
 If the server index.js file is not run the tree viewing and fetching functionality will still work but the login/registration functionality will not so the testing of editing nodes and uploading JSON files will not work.
 
+Login/Registration Functionality might take a bit to load due to Heroku having to initialize when it hasn't been loaded for a while.
+
 ## Summary of the Assignment
 In this assignment was to create a react application that can display a collapsible JSON tree, for any valid JSON file, as well as edit the values within the tree. The specific functionality required is:
 - Expansion and collapse of the JSON treee
