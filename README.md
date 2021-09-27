@@ -4,6 +4,8 @@ Create a react program to parse JSON file and create a nested list
 ## How to Run
 Requires a local server to run as well as the react app. Navigate to their respective directories and use `npm install` to install dependencies. Afterwards run both applications using the command `npm start`. The local server uses the port 3001 which can be edited to another value by changing the `PORT` variable in the .env file. 
 
+The env file should be placed in the server directory.
+
 ## Summary of the Assignment
 In this assignment was to create a react application that can display a collapsible JSON tree, for any valid JSON file, as well as edit the values within the tree. The specific functionality required is:
 - Expansion and collapse of the JSON treee
