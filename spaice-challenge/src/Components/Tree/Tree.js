@@ -12,7 +12,7 @@ const Node = ({ child }) => {
     if (hasChild) {
         let heading = Object.entries(child).map((key, child) => {
             return (
-                <Card>
+                <Card style={{ textAlign: 'left' }}>
                     <br />
                     <Collapsible trigger={key[0]}>
                         <Card>
@@ -22,6 +22,7 @@ const Node = ({ child }) => {
                             >
                                 <Node data-testid="node" child={key[1]}></Node>
                             </Card.Header>
+                    <br />
                         </Card>
                     </Collapsible>
                 </Card>
