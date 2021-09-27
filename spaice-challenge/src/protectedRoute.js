@@ -4,7 +4,7 @@ import { UserContext } from "./UserContext";
 
 function ProtectedRoute({ component: Component, ...restOfProps }) {
     const { user } = useContext(UserContext);
-    const isLogged = user === false;
+    const isLogged = user === true;
     let history = useHistory();
 
     return (
