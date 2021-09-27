@@ -32,6 +32,6 @@ Authentication was done by creating a server file using express and Node JS to q
 - Nicer UI
 - Addition/Removal of nodes
 - Editing of main tree node so that when a user downloads the JSON file it will contain the edits
--  - my method involved the use of recursion making the passing down of states messy, but for an iterative version I could just edit the direct state
+  - my method involved the use of recursion making the passing down of states messy, but for an iterative version I could just edit the direct state
 - JWT encoding for the login/registration information
 - Better testing methods
