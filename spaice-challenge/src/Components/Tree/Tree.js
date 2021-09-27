@@ -22,9 +22,10 @@ const Node = ({ child }) => {
                             >
                                 <Node data-testid="node" child={key[1]}></Node>
                             </Card.Header>
-                    <br />
+                    
                         </Card>
-                    </Collapsible>
+                   </Collapsible>
+                   <br />
                 </Card>
             );
         });
