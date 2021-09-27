@@ -35,3 +35,4 @@ Authentication was done by creating a server file using express and Node JS to q
   - my method involved the use of recursion making the passing down of states messy, but for an iterative version I could just edit the direct state
 - JWT encoding for the login/registration information
 - Better testing methods
+- Allow the editing of nodes other than the leaf nodes
